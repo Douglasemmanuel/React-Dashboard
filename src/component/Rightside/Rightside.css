@@ -1,0 +1,27 @@
+.Rightside{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    /* justify-content: space-evenly; */
+    margin-top: 2.5rem;
+}
+@media screen and(max-width:1200px) {
+    .Rightside{
+        justify-content: flex-start !important;
+        margin-top: .5rem;
+        /* margin-top: -5rem; */
+        /* margin-bottom: 9rem; */
+    }
+}
+@media screen and(max-width:768px){
+    .Rightside{
+        width:100%;
+        margin-top: 0;
+    }
+    .Rightside>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
